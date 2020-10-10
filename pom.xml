@@ -18,6 +18,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>MyCo Internal Repository</name>
+      <url>http://myapp.com</url>
+    </repository>
+  </distributionManagement>
   
   <build>
     <plugins>
